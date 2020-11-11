@@ -11,6 +11,7 @@ class KutyaNev
     {
         get { return nev; }
     }
+    public int Id { get { return id; } }
 
     public KutyaNev(int id, string nev)
     {

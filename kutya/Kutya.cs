@@ -13,6 +13,11 @@ namespace kutya
         private int nev_id;
         private int eletkor;
         private string vizsgalat;
+        public int Eletkor { get { return eletkor; } }
+        public int Nev_id { get{ return nev_id; } }
+        public int Fajta_id { get{ return fajta_id; } }
+
+        public string Vizsgalat { get { return vizsgalat; } }
 
 
         public Kutya (int i, int f, int n ,int e, string v)
